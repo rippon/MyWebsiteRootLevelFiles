@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>profile: rippon</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
+  <style>
+      #me {
+          font-size: 250%;
+          text-align: center;
+      }
+      #appDescriptionTitle {
+          font-size: 250%; 
+      }
+      #appDescription {
+          font-size: 150%; 
+      }
+      #clickOnTheAppImage {
+          font-size: 150%; 
+          color: blue;
+      }
+  </style>
+  <style>
+  </style>
+</head>
+<body id="documentBody" style="background-color:lightgray" >
+
+<!-- 
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Portfolio</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+-->
+    
+<script src="/lib/w3.js"></script>    
+
+<!-- ************************ FIRST ROW ***************************************** -->
+<div class="container-fluid bg-3 text-left">
+  <p id='me'>Rippon Gupta, developer</p>
+  <center>
+    <h4>(Please note: this site runs best under Firefox.)</h4>
+    <h2><b>profile</b></h2>
+  </center>
+  <div class="row">
+    <div class="col-sm-4"> 
+        <h3>
+            <b>Background</b>
+            <br><br>
+            I have spent most of my professional life teaching mathematics in London schools and colleges.
+            <br>
+            I have done much postgraduate study during my career.
+            <br><br>
+            I have bachelor's degrees in physics and mathematics and master's degrees in pure mathematics and 
+            applied mathematics.
+            I started a PhD some years ago; although I withdrew after six months, it was a valuable experience because
+            it sparked my passion for coding.
+        </h3>
+    </div>
+    <div class="col-sm-3"> 
+        <h3>
+            <b>Skills</b>
+            <br><br>
+            My proficiencies lie mainly in Java and JavaScript.
+            <br><br>
+            I am currently engaged in a self-funded developer's learning program with the training agency, JustIT
+            (www.justit.co.uk).
+            <br>
+            This has introduced me to, or increased my knowledge in, a range of languages and technologies,
+            e.g. Java, JavaScript,  HTML, CSS, JSON, HTTP, Python, C#, XML, VisualStudio.
+        </h3>
+    </div>
+    <div class="col-sm-3">
+        <h3>
+            <b>Future</b>
+            <br><br>
+            I wish to change career. I am seeking a beginner/junior developer role.
+            <br><br>
+            The coding challenges that I have enjoyed most thus far are creating animations to elucidate
+            mathematical topics.
+            <br>
+            I enjoy the beauty and elegance of object-oriented programming, and I am naturally keen to use other
+            methodologies too (e.g. functional programming).
+        </h3>
+      <!--
+      <img src="http://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      -->
+    </div>
+    <div class="col-sm-2">
+      <img src="images/e1.jpg" class="img-responsive" style="width:100%" alt="Image">
+      <!--
+      <img src="http://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      -->
+    </div>
+  </div>
+</div><br>
+
+<!-- ***************** PROJECT IMAGES *************************** -->
+<div class="container-fluid bg-3 text-center">    
+  <center><h2><b>portfolio</b></h2></center>
+  <h3>
+      The following pictures indicate the nature of some of my projects (click on the pictures to see
+      more). <br>
+  </h3><br>
+  <div class="row">
+    <div class="col-sm-6" id="appDescription"> <!-- adding fractions -->
+        <h1 id="appDescriptionTitle">Adding Fractions</h1>
+        <b>General description</b><br>
+        This app is intended to aid the teaching of fractions. It illustrates the principle of LCM (lowest common denominator)
+        and how that is used for adding fractions.<br><br>
+        <b>Technical features</b><br>
+         <ul>
+          <li>object-oriented JavaScript code</li>
+          <li>use of HTML5 Canvas</li>
+          <li>processing and responding to user input</li>
+        </ul>     
+        <p id='clickOnTheAppImage'>
+            click on the app's image (on the right) to see a demo, read instructions and use the app
+        </p>
+    </div>
+    <div class="col-sm-6">
+        <a href="schoolmaths/AddFractions/AddFractions.html" target="_blank">
+            <img src="images/addingFractions.gif" class="img-responsive" style="width:100%" alt="Image" >
+        </a>
+    </div>
+  </div>
+  
+  <br><br><br><br><br><br>
+  
+  <div class="row">
+    <div class="col-sm-6" id="appDescription"> <!-- simple harmonic motion -->
+        <h1 id="appDescriptionTitle">Simple Harmonic Motion</h1>
+        <b>General description</b><br>
+        This app is intended to aid the teaching of Simple Harmonic Motion (SHM). It illustrates the intimate connections between SHM,
+        circular motion and trigonometry (right-angled triangles and the sine wave).
+        <br><br>
+        <b>Technical features</b><br>
+        <ul>
+          <li>object-oriented JavaScript code</li>
+          <li>animation through JavaScript timer</li>
+          <li>use of HTML5 Canvas</li>
+          <li>use of JavaScript mathematical (trigonometry) functions</li>
+        </ul>     
+        <p id='clickOnTheAppImage'>
+            click on the app's image (on the right) to see a demo, read instructions and use the app
+        </p>
+    </div>
+    <div class="col-sm-6">
+        <a href="schoolmaths/circularAndSimpleHarmonicMotion/circularAndSimpleHarmonicMotion.html" target="_blank">
+            <img src="images/shm.gif" class="img-responsive" style="width:100%" alt="Image" >
+        </a>
+    </div>
+  </div>
+  
+  <br><br><br><br><br><br>
+  
+  <div class="row">
+    <div class="col-sm-6" id="appDescription"> <!--  robot arms -->
+        <h1 id="appDescriptionTitle">Robot Arms</h1>
+        <b>General description</b><br>
+        In this app, two articulated robot arms, one folded back on the other, start in a position of lying along the x-axis.
+        The app shows the solution to the problem of moving the hand at the end of the second arms to whatever target point the user
+        chooses. The default solution involves both arms rotating anticlockwise. But the user can also choose to optimise the solution,
+        where the hand is enabled to reach the target point in the quickest possible time because both arms are each free to rotate
+        anticlockwise <b>or</b> clockwise.
+        <br><br>
+        <b>Technical features</b><br>
+         <ul>
+          <li>object-oriented Java code</li>
+          <li>animation through Java timer function</li>
+          <li>Java layout managers</li>
+          <li>Java Graphics (and Graphics2D) class</li>
+          <li>use of Java mathematical (trigonometry) functions</li>
+          <li>arrays</li>
+        </ul>     
+        <p id='clickOnTheAppImage'>
+            click on the app's image (on the right) to see a demo and read instructions for its use
+        </p>
+    </div>
+    <div class="col-sm-6">
+        <a href="robotArms_description.html" target="_blank">
+            <img src="images/robotArmsSnapshot.jpg" class="img-responsive" style="width:100%" alt="Image" >
+        </a>
+    </div>
+  </div>
+  
+  <br><br><br><br><br><br>
+  
+  <div class="row">
+    <div class="col-sm-6" id="appDescription"> <!-- bags of taste -->
+        <h1 id="appDescriptionTitle">Bags of Taste app</h1>
+        <b>General description</b><br>
+        The user selects ingredients and is then presented results on how well that selection matches each recipe in the recipe database.
+        <br><br>
+        <b>Technical features</b><br>
+         <ul>
+          <li>use of JSON data</li>
+          <li>use of HTTP GET request</li>
+          <li>processing and responding to user input</li>
+          <li>arrays</li>
+        </ul>     
+        <p id='clickOnTheAppImage'>
+            click on the image (on the right) to see a demo and use the app
+        </p>
+    </div>
+    <div class="col-sm-6">
+        <a href="BagsOfTaste/public_html/scoreRecipes_againstSelectedIngredients.html" target="_blank">
+            <img src="images/bagsoftaste.jpg" class="img-responsive" style="width:100%" alt="Image" >
+        </a>
+    </div>
+  </div>
+  
+  <br><br><br><br><br><br>
+  
+  <div class="row">
+    <div class="col-sm-6" id="appDescription"> <!-- open weather map app -->
+        <h1 id="appDescriptionTitle">Open Weather Map App</h1>
+        <b>General description</b><br>
+        The user can select up to 7 capital cities, and then the app produces a bar chart showing the current temperature
+        in each of those cities.
+        <br><br>
+        <b>Technical features</b><br>
+         <ul>
+          <li>AJAX</li>
+          <li>Open Weather API</li>
+          <li>arrays</li>
+        </ul>
+        <p id='clickOnTheAppImage'>
+            click on the app's image (on the right) to see a demo and read instructions for using the app
+        </p>
+    </div>
+    <div class="col-sm-6">
+        <a href="openWeatherMapApp_description.html" target="_blank">
+            <img src="images/capitalCityTemperatures.jpg" class="img-responsive" style="width:100%" alt="Image" >
+        </a>
+    </div>
+  </div>
+    <!--
+  <div class="row">
+    <div class="col-sm-6" id="appDescription">
+        <br><br><br>
+        <b>General</b><br>
+        description of 3D Cube
+    </div>
+    <div class="col-sm-6">
+        <a href="threeDcube/threeDcube.html" target="_blank">
+            <img src="images/rotatingCube.gif" class="img-responsive" style="width:100%" alt="Image" >
+        </a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6" id="appDescription">
+        <br><br><br>
+        <b>General</b><br>
+        description of Fractal Windmill
+    </div>
+    <div class="col-sm-6">
+        <a href="windmills/windmill.html" target="_blank">
+            <img src="images/fractalWindmill.gif" class="img-responsive" style="width:100%" alt="Image" >
+        </a>
+    </div>
+  </div>
+    -->
+    
+    
+    
+</div><br>
+
+    
+<footer class="container-fluid text-center">
+  <p>Footer Text</p>
+</footer>
+
+</body>
+</html>
